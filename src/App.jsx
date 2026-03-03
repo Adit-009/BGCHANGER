@@ -3,7 +3,7 @@ const App = () => {
   const [color, setColor] = useState("#387478");
   return (
     <div style={{ background: color }} className="h-screen w-full">
-      <h1 className="text-white text-6xl font-bold absolute top-80 left-1/2 transform -translate-x-1/2">
+      <h1 className="text-white text-center text-6xl font-bold absolute top-80 left-1/2 transform -translate-x-1/2">
         Background Color Changer by Adit
       </h1>
       <div className="flex flex-wrap fixed bottom-44 gap-8 w-full justify-center">
